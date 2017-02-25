@@ -1,0 +1,83 @@
+html {
+    height: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f637f+0,337d95+100 */
+    background: #0f637f; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #0f637f 0%, #337d95 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #0f637f 0%,#337d95 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #0f637f 0%,#337d95 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f637f', endColorstr='#337d95',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+body {
+    height: 100%;
+}
+
+.phone {
+    background-image: url(images/main.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 90% bottom;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.5s ease;
+}
+
+.blurb {
+    color: #fff;
+    font-family: Arial;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0 5%;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ul li {
+    margin-left: 25px;
+    padding-top: 5px;
+}
+
+.blurb em {
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.logo {
+    width: 40%;
+    transition: all 0.5s ease;
+}
+
+@media (max-width: 600px) {
+   .logo {
+        width: 100%;
+   }
+   .phone {
+        background-size: contain;
+        margin: 0 auto;
+        width: 100%;
+        background-position: center;
+        position: relative;
+        height: 300px;
+   }
+   .blurb {
+        padding: 10px;
+        padding-bottom: 50px;
+   }
+}
+
+/*.iphone {
+    background-image: url(images/main.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    width: 500px;
+    position: fixed;
+    bottom: 0px;
+    right: 10%;
+}*/
