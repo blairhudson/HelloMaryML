@@ -12,6 +12,22 @@ body {
     height: 100%;
 }
 
+a {
+    background-color: #fff;
+    display: inline-block;
+    padding: 15px 10px;
+    text-decoration: none;
+    color: #0f637f;
+    margin-top: 15px;
+    transition: all 0.2s ease;
+    border-radius: 2px;
+}
+
+a:hover {
+    background-color: #0f637f;
+    color: #fff;
+}
+
 .phone {
     background-image: url(images/main.png);
     background-repeat: no-repeat;
@@ -22,6 +38,7 @@ body {
     position: absolute;
     bottom: 0;
     transition: all 0.5s ease;
+    z-index: -1;
 }
 
 .blurb {
@@ -47,6 +64,16 @@ ul li {
     font-style: italic;
 }
 
+.counting {
+    color: #fff;
+    font-family: Arial;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0 5%;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
 
 .logo {
     width: 40%;
