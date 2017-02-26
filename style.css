@@ -56,7 +56,6 @@ ul li {
 .copy {
     padding-top: 20px;
     font-size: 0.7em;
-    color: #ccc;
 }
 
 @media (max-width: 600px) {
@@ -74,6 +73,9 @@ ul li {
    .blurb {
         padding: 10px;
         padding-bottom: 50px;
+   }
+   .copy {
+        text-align: center;
    }
 }
 
